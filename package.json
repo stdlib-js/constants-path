@@ -1,0 +1,86 @@
+{
+  "name": "@stdlib/constants-path",
+  "version": "0.0.0",
+  "description": "Standard string path constants.",
+  "license": "Apache-2.0",
+  "author": {
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+  },
+  "contributors": [
+    {
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
+    }
+  ],
+  "main": "lib/index.js",
+  "directories": {
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
+  "types": "./docs/types",
+  "scripts": {
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "examples": "make examples"
+  },
+  "homepage": "https://github.com/stdlib-js/stdlib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "dependencies": {
+    "@stdlib/constants-path-delimiter": "^0.0.x",
+    "@stdlib/constants-path-delimiter-posix": "^0.0.x",
+    "@stdlib/constants-path-delimiter-win32": "^0.0.x",
+    "@stdlib/constants-path-sep": "^0.0.x",
+    "@stdlib/constants-path-sep-posix": "^0.0.x",
+    "@stdlib/constants-path-sep-win32": "^0.0.x",
+    "@stdlib/utils-define-read-only-property": "^0.0.x"
+  },
+  "devDependencies": {
+    "@stdlib/assert-is-windows": "^0.0.x",
+    "@stdlib/utils-keys": "^0.0.x",
+    "proxyquire": "^2.0.0",
+    "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
+    "istanbul": "^0.4.1",
+    "tap-spec": "5.x.x"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
+  "keywords": [
+    "stdlib",
+    "stdstring",
+    "constants",
+    "constant",
+    "const",
+    "string",
+    "str",
+    "path",
+    "posix",
+    "linux",
+    "darwin",
+    "bsd"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
