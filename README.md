@@ -18,11 +18,11 @@ limitations under the License.
 
 -->
 
-# String Path Constants
+# Path Constants
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
 
-> Standard library string path constants.
+> Path constants.
 
 <section class="installation">
 
@@ -44,7 +44,7 @@ var constants = require( '@stdlib/constants-path' );
 
 #### constants
 
-Standard library string path constants.
+Namespace containing path constants.
 
 ```javascript
 var ns = constants;
@@ -88,6 +88,16 @@ console.log( objectKeys( constants ) );
 </section>
 
 <!-- /.examples -->
+
+<!-- Section for related `stdlib` packages. Do not manually edit this section, as it is automatically populated. -->
+
+<section class="related">
+
+</section>
+
+<!-- /.related -->
+
+<!-- Section for all links. Make sure to keep an empty line after the `section` element and another before the `/section` close. -->
 
 
 <section class="main-repo" >
