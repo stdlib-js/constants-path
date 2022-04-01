@@ -1,0 +1,34 @@
+{
+  "name": "@stdlib/constants-path",
+  "version": "0.0.0",
+  "description": "Standard string path constants.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.mjs",
+  "homepage": "https://stdlib.io",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stdlib-js/constants-path.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stdlib-js/stdlib/issues"
+  },
+  "keywords": [
+    "stdlib",
+    "stdstring",
+    "constants",
+    "constant",
+    "const",
+    "string",
+    "str",
+    "path",
+    "posix",
+    "linux",
+    "darwin",
+    "bsd"
+  ],
+  "funding": {
+    "type": "patreon",
+    "url": "https://www.patreon.com/athan"
+  }
+}
