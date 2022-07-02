@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.constants;
+})();
 })();
 </script>
 ```
@@ -102,9 +104,11 @@ var ns = constants;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 console.log( objectKeys( constants ) );
 
+})();
 })();
 </script>
 </body>
@@ -194,17 +198,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/constants/path/delimiter-posix]: https://github.com/stdlib-js/constants-path-delimiter-posix/tree/umd
+[@stdlib/constants/path/delimiter-posix]: https://github.com/stdlib-js/constants-path-delimiter-posix/tree/umd/tree/umd
 
-[@stdlib/constants/path/delimiter-win32]: https://github.com/stdlib-js/constants-path-delimiter-win32/tree/umd
+[@stdlib/constants/path/delimiter-win32]: https://github.com/stdlib-js/constants-path-delimiter-win32/tree/umd/tree/umd
 
-[@stdlib/constants/path/delimiter]: https://github.com/stdlib-js/constants-path-delimiter/tree/umd
+[@stdlib/constants/path/delimiter]: https://github.com/stdlib-js/constants-path-delimiter/tree/umd/tree/umd
 
-[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix/tree/umd
+[@stdlib/constants/path/sep-posix]: https://github.com/stdlib-js/constants-path-sep-posix/tree/umd/tree/umd
 
-[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32/tree/umd
+[@stdlib/constants/path/sep-win32]: https://github.com/stdlib-js/constants-path-sep-win32/tree/umd/tree/umd
 
-[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep/tree/umd
+[@stdlib/constants/path/sep]: https://github.com/stdlib-js/constants-path-sep/tree/umd/tree/umd
 
 <!-- </toc-links> -->
 
