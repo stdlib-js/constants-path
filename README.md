@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@v0.2.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { DELIMITER, DELIMITER_POSIX, DELIMITER_WIN32, SEP, SEP_POSIX, SEP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@v0.2.0-deno/mod.js';
+import { DELIMITER, DELIMITER_POSIX, DELIMITER_WIN32, SEP, SEP_POSIX, SEP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@deno/mod.js';
 ```
 
 #### constants
@@ -89,7 +94,7 @@ var ns = constants;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@v0.2.0-deno/mod.js';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@deno/mod.js';
 
 console.log( objectKeys( constants ) );
 ```
