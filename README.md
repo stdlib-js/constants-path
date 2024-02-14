@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/constants-path/tags). For example,
+
+```javascript
 import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { DELIMITER, DELIMITER_POSIX, DELIMITER_WIN32, SEP, SEP_POSIX, SEP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@v0.2.0-esm/index.mjs';
+import { DELIMITER, DELIMITER_POSIX, DELIMITER_WIN32, SEP, SEP_POSIX, SEP_WIN32 } from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@esm/index.mjs';
 ```
 
 #### constants
@@ -94,7 +99,7 @@ var ns = constants;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@v0.2.0-esm/index.mjs';
+import constants from 'https://cdn.jsdelivr.net/gh/stdlib-js/constants-path@esm/index.mjs';
 
 console.log( objectKeys( constants ) );
 
