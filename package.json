@@ -41,7 +41,8 @@
     "@stdlib/constants-path-sep": "^0.2.0",
     "@stdlib/constants-path-sep-posix": "^0.2.0",
     "@stdlib/constants-path-sep-win32": "^0.2.0",
-    "@stdlib/utils-define-read-only-property": "^0.2.0"
+    "@stdlib/utils-define-read-only-property": "^0.2.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-windows": "^0.1.1",
