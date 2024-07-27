@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/constants-path",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Standard string path constants.",
   "license": "Apache-2.0",
   "author": {
@@ -36,12 +36,12 @@
   },
   "dependencies": {
     "@stdlib/constants-path-delimiter": "^0.2.1",
-    "@stdlib/constants-path-delimiter-posix": "^0.2.1",
-    "@stdlib/constants-path-delimiter-win32": "^0.2.1",
-    "@stdlib/constants-path-sep": "^0.2.1",
-    "@stdlib/constants-path-sep-posix": "^0.2.1",
-    "@stdlib/constants-path-sep-win32": "^0.2.1",
-    "@stdlib/utils-define-read-only-property": "^0.2.1"
+    "@stdlib/constants-path-delimiter-posix": "^0.2.2",
+    "@stdlib/constants-path-delimiter-win32": "^0.2.2",
+    "@stdlib/constants-path-sep": "^0.2.2",
+    "@stdlib/constants-path-sep-posix": "^0.2.2",
+    "@stdlib/constants-path-sep-win32": "^0.2.2",
+    "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-windows": "^0.2.1",
