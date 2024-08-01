@@ -35,7 +35,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/constants-path-delimiter": "^0.2.1",
+    "@stdlib/constants-path-delimiter": "^0.2.2",
     "@stdlib/constants-path-delimiter-posix": "^0.2.2",
     "@stdlib/constants-path-delimiter-win32": "^0.2.2",
     "@stdlib/constants-path-sep": "^0.2.2",
@@ -44,8 +44,8 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-windows": "^0.2.1",
-    "@stdlib/utils-keys": "^0.2.1",
+    "@stdlib/assert-is-windows": "^0.2.2",
+    "@stdlib/utils-keys": "^0.2.2",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
