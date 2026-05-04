@@ -2,6 +2,40 @@
 
 > Package changelog.
 
+<section class="release" id="unreleased">
+
+## Unreleased (2026-05-04)
+
+<section class="commits">
+
+### Commits
+
+<details>
+
+-   [`7d465f0`](https://github.com/stdlib-js/stdlib/commit/7d465f0dc899cfdadffdced8ed9a2ae6ec97acda) - **chore:** update package entry point to reflect convention [(#11909)](https://github.com/stdlib-js/stdlib/pull/11909) _(by Philipp Burckhardt)_
+
+</details>
+
+</section>
+
+<!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 1 person contributed to this release. Thank you to this contributor:
+
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.2.3">
 
 ## 0.2.3 (2026-02-07)
