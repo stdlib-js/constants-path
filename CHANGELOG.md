@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-05-31)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`313aca0`](https://github.com/stdlib-js/stdlib/commit/313aca0ca68e3b4aa57e9b1147e7245799c08f3a) - **docs:** tidy JSDoc and README drift in `@stdlib/constants` [(#12389)](https:-/github.com/stdlib-js/stdlib/pull/12389) _(by Philipp Burckhardt)_
 -   [`7d465f0`](https://github.com/stdlib-js/stdlib/commit/7d465f0dc899cfdadffdced8ed9a2ae6ec97acda) - **chore:** update package entry point to reflect convention [(#11909)](https://github.com/stdlib-js/stdlib/pull/11909) _(by Philipp Burckhardt)_
 
 </details>
